@@ -1,0 +1,56 @@
+.process {
+   padding: 100px 0;
+   text-align: center;
+
+}
+
+
+.process h2 {
+   font-size: 148px;
+   font-weight: 900;
+   line-height: 1.5;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+}
+
+.process>p {
+
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 1.5;
+   text-transform: uppercase;
+   align-items: center;
+   margin-bottom: 100px;
+}
+
+.process__blocks {
+   display: flex;
+   gap: 20px;
+
+}
+
+.process__block {
+   min-width: 386px;
+   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+   background: rgb(255, 255, 255);
+   padding: 30px;
+   text-align: left;
+
+}
+
+.process__block h3 {
+   font-weight: 700;
+   line-height: 1.5;
+   text-transform: uppercase;
+   margin-bottom: 15px;
+}
+
+.process__block p {
+   font-size: 18px;
+   color: rgb(183, 183, 183);
+   line-height: 1.5;
+   font-weight: 400;
+   text-transform: lowercase;
+   width: 90%;
+
+}

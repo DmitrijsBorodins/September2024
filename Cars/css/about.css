@@ -1,0 +1,41 @@
+.about {
+   background-color: #171616;
+   margin-bottom: 150px;
+}
+
+.about__inner {
+   display: flex;
+}
+
+.about__info {
+   color: var(--letters-color);
+   padding: 115px 0;
+}
+
+.about__title {
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 1.5;
+   text-transform: uppercase;
+   width: 65%;
+   margin-bottom: 40px;
+}
+
+.about__info p {
+   color: rgb(183, 183, 183);
+   font-weight: 600;
+   line-height: 1.5;
+   width: 70%;
+   margin-bottom: 50px;
+}
+
+.about__link {
+   color: var(--letters-color);
+   text-decoration: underline;
+}
+
+.about__img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

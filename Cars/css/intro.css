@@ -1,0 +1,80 @@
+.main {}
+/* 
+.intro {
+   background-image: url(/Cars/img/background-image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 200px 0 400px 0;
+   position: relative;
+} */
+
+
+.intro__title {
+   font-size: 48px;
+   text-transform: uppercase;
+   font-weight: 900;
+   line-height: 1.5;
+   color: var(--letters-color);
+   width: 80%;
+   margin-bottom: 50px;
+}
+
+
+.btn {
+   display: inline-block;
+   color: var(--letters-color);
+   background-color: var(--button-bg);
+   padding: 10px 50px;
+   font-size: 18px;
+}
+
+.intro__blocks {
+   display: flex;
+   gap: 21px;
+   position: absolute;
+   bottom: -9%;
+   left: 27%
+}
+
+.intro__block {
+   position: relative;
+   text-transform: uppercase;
+   padding: 40px 50px;
+   min-width: 386px;
+   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+   background: rgb(255, 255, 255);
+}
+
+.intro__block p {
+   font-size: 18px;
+   font-weight: 700;
+   margin: 20px 0 15px 0;
+}
+
+.intro__block>span {
+   color: #B7B7B7;
+}
+
+
+.intro__block::before {
+   content: "";
+   background-image: url(/Cars/img/phone.svg);
+   background-repeat: no-repeat;
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   top: 10%;
+   left: 10%;
+}
+
+.service__block:hover::after {
+   content: "ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH";
+   width: 55%;
+   /* height: auto; */
+   position: absolute;
+   top: 65%;
+   left: 10%;
+   z-index: 2;
+   color: white;
+}

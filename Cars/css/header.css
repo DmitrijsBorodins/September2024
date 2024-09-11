@@ -1,0 +1,63 @@
+.header {
+   background-image: url(/Cars/img/background-image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 80vh;
+
+
+}
+
+.header__inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.header__nav {
+
+   display: flex;
+   gap: 35px;
+}
+
+.header__link {
+   color: var(--letters-color);
+   text-transform: uppercase;
+   font-weight: 600;
+   padding: 5px;
+   font-size: 20px;
+}
+
+
+
+.is_current {
+
+   border-bottom: solid 2px;
+}
+
+.header__lang {
+   text-transform: uppercase;
+   font-weight: 600;
+}
+
+.lang-ru {
+   color: rgb(183, 183, 183);
+   margin-right: 10px;
+}
+
+.lang-eng {
+   color: var(--letters-color);
+}
+
+.header__title {
+   font-size: 48px;
+   text-transform: uppercase;
+   font-weight: 900;
+   line-height: 1.5;
+   color: var(--letters-color);
+   margin-bottom: 50px;
+}
+
+.header__discription {
+   background-image: url(/Cars/img/background-image.jpg);
+}
